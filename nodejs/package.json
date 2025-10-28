@@ -1,0 +1,22 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A clean starter template for Node.js + TypeScript projects",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node-dev --respawn src/index.ts",
+        "build": "tsc",
+        "lint": "eslint . --ext .ts",
+        "test": "echo \"No tests yet\" && exit 0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+        "node": ">=22.0.0",
+        "npm": ">=11.0.0"
+    }
+}
