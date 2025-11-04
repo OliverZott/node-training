@@ -1,5 +1,6 @@
 /* 
 SQlite default implementation in node
+run: node .\sqlite-support.js 
 */
 
 import { DatabaseSync } from 'node:sqlite';
