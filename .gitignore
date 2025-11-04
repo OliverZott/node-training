@@ -1,5 +1,6 @@
 // local sqlite databases
 *.db
 *.pdf
+*.csv
 
 node_modules
