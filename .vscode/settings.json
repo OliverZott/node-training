@@ -1,9 +1,8 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.printWidth": 200,
-    "prettier.arrowParens": "avoid",
+    "editor.formatOnSave": true,
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
