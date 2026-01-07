@@ -29,11 +29,11 @@ const requestHandler = (req, res) => {
             if (!parsedBody) return res.end("No body");
 
             setTimeout(() => {
-                console.log("Timer is done!"); // callback function
+                console.log("Timer is done!");
             }, 2000);
             console.log(`Parsed body: ${parsedBody}`);
             res.statusCode = 200;
-            res.write("You have reached the data endpoints end\n");
+            res.write("Data endpoint\n");
             res.end();
         });
         return;
