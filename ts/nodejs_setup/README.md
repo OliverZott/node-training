@@ -7,4 +7,4 @@
 
 - `npm install --save express` to install Express.js
 - `npm install --save body-parser` to install body-parser for parsing request bodies
-- `npm install --save-dev @types/express` to install Express.js type definitions
+- `npm install --save-dev @types/express @types/node` to install Express.js type definitions
