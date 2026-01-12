@@ -1,12 +1,12 @@
 import express from "express";
 import bodyParser from "body-parser";
 
-import todosRoutes from "./routes/todos.js";
+import router from "./routes/todos.js";
 
 const app = express();
 
 app.use(bodyParser.json());
-app.use(todosRoutes);
+app.use(router);
 
 app.listen(3000, () => {
     console.log("Server is running on port 3000");
