@@ -17,7 +17,7 @@
             "name": "Launch Program",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/nodejs/udemy/1-Basics/app.js",
+            "program": "${workspaceFolder}/nodejs/udemy/2-Express/app.js",
             "restart": true,
             "runtimeExecutable": "nodemon",
             "console": "integratedTerminal"
