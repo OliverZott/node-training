@@ -14,14 +14,12 @@
             ],
         },
         {
+            "name": "Launch Program",
             "type": "node",
             "request": "launch",
-            "name": "Debug Current JS File",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${file}",
-            "cwd": "${fileDirname}",
+            "program": "${workspaceFolder}/nodejs/udemy/1-Basics/app.js",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
             "console": "integratedTerminal"
         },
     ]
