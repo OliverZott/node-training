@@ -1,9 +1,11 @@
 import express from "express";
+import path from "path";
+import { __dirname } from "../utils/path.js";
 
 const router = express.Router();
 
-router.get("/", (req, res, next) => {
-    res.send("<h1>Shop :)</h1>");
+router.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "views", "shop.html"));
 });
 
 export default router;

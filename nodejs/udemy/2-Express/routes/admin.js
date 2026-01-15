@@ -1,14 +1,17 @@
 import express from "express";
+import path from "path";
+
+import { __dirname } from "../utils/path.js";
 
 const router = express.Router();
 
-router.post("/product", (req, res, next) => {
-    console.log(req.body);
-    res.status(200).json("Product created");
+router.get("/add-product", (req, res, next) => {
+    res.sendFile(path.join(__dirname, "..", "views", "add-product.html"));
 });
 
-router.get("/product", (req, res, next) => {
-    res.status(200).json("These are all the products ...");
+router.post("/add-product", (req, res, next) => {
+    console.log(req.body);
+    res.status(200).json("Product created");
 });
 
 export default router;
